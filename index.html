@@ -2447,8 +2447,6 @@
 
         // Chọn ngẫu nhiên theo trọng số
         function weightedRandom() {
-            // Loại bỏ hoàn toàn khả năng trúng iPhone (Index 1)
-            // Chỉ chọn ngẫu nhiên trong các phần thưởng còn lại
             const others = [0, 2, 3, 4, 5, 6, 7];
             return others[Math.floor(Math.random() * others.length)];
         }
