@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Merry Christmas 2025</title>
+    <title>Happy Birthday Hải Yến</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap');
         
@@ -12,7 +13,7 @@
         body {
             font-family: 'Montserrat', sans-serif;
             min-height: 100vh;
-            background: linear-gradient(135deg, #1a472a 0%, #0d2818 50%, #0a1f13 100%);
+            background: linear-gradient(135deg, #2b1055 0%, #1b1b3a 45%, #0b2545 100%);
             overflow-x: hidden;
             color: #fff;
             position: relative;
@@ -33,10 +34,10 @@
             position: absolute;
             top: -20px;
             color: #fff;
-            opacity: 0.8;
-            font-size: 14px;
+            opacity: 0.9;
+            font-size: 16px;
             animation: snowfall linear infinite;
-            text-shadow: 0 0 5px rgba(255,255,255,0.5);
+            text-shadow: 0 0 10px rgba(255,255,255,0.25);
         }
 
         @keyframes snowfall {
@@ -59,7 +60,7 @@
         .light-1 {
             width: 400px;
             height: 400px;
-            background: rgba(220, 20, 60, 0.15);
+            background: rgba(255, 77, 109, 0.18);
             top: -100px;
             right: -100px;
         }
@@ -67,7 +68,7 @@
         .light-2 {
             width: 300px;
             height: 300px;
-            background: rgba(34, 139, 34, 0.2);
+            background: rgba(76, 201, 240, 0.16);
             bottom: -50px;
             left: -50px;
         }
@@ -75,7 +76,7 @@
         .light-3 {
             width: 200px;
             height: 200px;
-            background: rgba(255, 215, 0, 0.1);
+            background: rgba(255, 209, 102, 0.12);
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -133,7 +134,7 @@
         .wreath {
             width: 200px;
             height: 200px;
-            border: 15px solid #2d5a3d;
+            border: 15px solid #ff4d6d;
             border-radius: 50%;
             position: relative;
             display: flex;
@@ -142,7 +143,7 @@
             margin-bottom: 40px;
             box-shadow: 
                 inset 0 0 30px rgba(0,0,0,0.3),
-                0 0 40px rgba(34, 139, 34, 0.3);
+                0 0 40px rgba(255, 77, 109, 0.25);
         }
 
         .wreath::before {
@@ -150,7 +151,7 @@
             position: absolute;
             width: 220px;
             height: 220px;
-            border: 3px dashed rgba(255,215,0,0.3);
+            border: 3px dashed rgba(255,209,102,0.35);
             border-radius: 50%;
             animation: rotate 20s linear infinite;
         }
@@ -218,10 +219,10 @@
         }
 
         .wreath-year {
-            font-family: 'Great Vibes', cursive;
+            font-family: 'Great Vibes', 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', cursive;
             font-size: 48px;
-            color: #ffd700;
-            text-shadow: 0 0 30px rgba(255,215,0,0.5);
+            color: #ffd166;
+            text-shadow: 0 0 30px rgba(255,209,102,0.45);
         }
 
         /* Tiêu đề chính */
@@ -304,6 +305,7 @@
             align-items: center;
             justify-content: center;
             font-size: 24px;
+            font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
             box-shadow: 0 10px 25px rgba(192,57,43,0.4);
         }
 
@@ -360,7 +362,7 @@
 
         .footer-decor::before,
         .footer-decor::after {
-            content: '❄';
+            content: '🎉';
             font-size: 10px;
         }
 
@@ -394,13 +396,13 @@
 
         .mini-tree {
             font-size: 100px;
-            filter: drop-shadow(0 0 30px rgba(34,139,34,0.6));
+            filter: drop-shadow(0 0 30px rgba(255,77,109,0.55));
             animation: tree-glow 3s ease-in-out infinite;
         }
 
         @keyframes tree-glow {
-            0%, 100% { filter: drop-shadow(0 0 30px rgba(34,139,34,0.6)); }
-            50% { filter: drop-shadow(0 0 50px rgba(34,139,34,0.9)); }
+            0%, 100% { filter: drop-shadow(0 0 30px rgba(255,77,109,0.55)); }
+            50% { filter: drop-shadow(0 0 55px rgba(123,44,191,0.6)); }
         }
 
         .tree-star {
@@ -432,7 +434,7 @@
         .rotating-tree {
             font-size: 80px;
             animation: tree-ballet-spin 4s linear infinite;
-            filter: drop-shadow(0 0 20px rgba(34,139,34,0.5));
+            filter: drop-shadow(0 0 22px rgba(76,201,240,0.45));
             position: relative;
             transform-style: preserve-3d;
         }
@@ -1279,6 +1281,13 @@
             }
         }
 
+        .welcome-fireplace,
+        .fireplace-right,
+        .snowmen,
+        .santa-sleigh {
+            display: none;
+        }
+
         /* Trang chào mừng */
         .welcome-page {
             position: fixed;
@@ -1286,7 +1295,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, #1a472a 0%, #0d2818 50%, #0a1f13 100%);
+            background: linear-gradient(135deg, #2b1055 0%, #1b1b3a 45%, #0b2545 100%);
             z-index: 1000;
             display: flex;
             flex-direction: column;
@@ -1319,18 +1328,19 @@
         }
 
         .welcome-subtitle {
-            font-size: 18px;
-            padding-left: 5px;
-            letter-spacing: 10px;
-            color: rgba(255,255,255,0.6);
-            margin-bottom: 60px;
-            text-transform: uppercase;
+            font-family: 'Dancing Script', cursive;
+            font-size: 32px;
+            font-weight: 600;
+            color: #E6D9FF;
+            margin-bottom: 47px;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
         }
 
         .welcome-tree {
             font-size: 120px;
             margin-bottom: 50px;
-            filter: drop-shadow(0 0 40px rgba(34,139,34,0.6));
+            filter: drop-shadow(0 0 40px rgba(255,77,109,0.55));
             animation: tree-bounce 2s ease-in-out infinite;
         }
 
@@ -1387,6 +1397,7 @@
         .welcome-decor {
             position: absolute;
             font-size: 30px;
+            font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
             opacity: 0.3;
             animation: float-random 4s ease-in-out infinite;
         }
@@ -1416,218 +1427,6 @@
         .studio-footer::before {
             content: '💝';
             margin-right: 8px;
-        }
-
-        /* Style vòng quay may mắn */
-        .lottery-section {
-            width: 100%;
-            max-width: 380px;
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .lottery-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #ffd700;
-            margin-bottom: 30px;
-            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .wheel-container {
-            position: relative;
-            width: 280px;
-            height: 280px;
-        }
-
-        .wheel {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            position: relative;
-            transition: transform 4s cubic-bezier(0.17, 0.67, 0.12, 0.99);
-            box-shadow:
-                0 0 0 8px #ffd700,
-                0 0 0 12px #8B4513,
-                0 0 30px rgba(255, 215, 0, 0.5);
-        }
-
-        .wheel-segment {
-            position: absolute;
-            width: 50%;
-            height: 50%;
-            top: 0;
-            right: 0;
-            transform-origin: bottom left;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .wheel-segment::before {
-            content: '';
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            top: 0;
-            left: 0;
-            transform-origin: bottom left;
-        }
-
-        .segment-content {
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translateX(-50%) rotate(22.5deg);
-            font-size: 12px;
-            font-weight: 600;
-            color: #fff;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-            text-align: center;
-            width: 60px;
-            line-height: 1.2;
-        }
-
-        .wheel-center {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, #ffd700 0%, #ffaa00 100%);
-            border-radius: 50%;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            cursor: pointer;
-            z-index: 10;
-            transition: transform 0.3s ease;
-        }
-
-        .wheel-center:hover {
-            transform: translate(-50%, -50%) scale(1.1);
-        }
-
-        .wheel-pointer {
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 0;
-            border-left: 15px solid transparent;
-            border-right: 15px solid transparent;
-            border-top: 30px solid #e74c3c;
-            z-index: 5;
-            filter: drop-shadow(0 3px 5px rgba(0,0,0,0.3));
-        }
-
-        .spin-btn {
-            margin-top: 25px;
-            padding: 15px 50px;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            color: #fff;
-            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
-            border: none;
-            border-radius: 30px;
-            cursor: pointer;
-            box-shadow: 0 10px 25px rgba(231, 76, 60, 0.4);
-            transition: all 0.3s ease;
-        }
-
-        .spin-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 35px rgba(231, 76, 60, 0.5);
-        }
-
-        .spin-btn:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        /* Popup kết quả bốc thăm */
-        .result-modal {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2000;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .result-modal.show {
-            display: flex;
-            opacity: 1;
-        }
-
-        .result-content {
-            background: linear-gradient(135deg, #1a472a 0%, #0d2818 100%);
-            border: 3px solid #ffd700;
-            border-radius: 20px;
-            padding: 40px;
-            text-align: center;
-            max-width: 350px;
-            animation: modal-pop 0.5s ease;
-        }
-
-        @keyframes modal-pop {
-            0% { transform: scale(0.5); opacity: 0; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
-        .result-icon {
-            font-size: 60px;
-            margin-bottom: 20px;
-        }
-
-        .result-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #F5F7F8;
-            margin-bottom: 15px;
-        }
-
-        .result-text {
-            font-size: 16px;
-            line-height: 1.8;
-            color: rgba(255,255,255,0.9);
-            margin-bottom: 25px;
-        }
-
-        .close-result-btn {
-            padding: 12px 40px;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-weight: 600;
-            color: #fff;
-            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .close-result-btn:hover {
-            transform: scale(1.05);
         }
 
         /* Nút hộp quà trang bìa */
@@ -1766,14 +1565,14 @@
             margin-top: 20px;
             font-size: 18px;
             font-weight: 600;
-            color: #ffd700;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            color: #ffd166;
+            text-shadow: 0 0 10px rgba(255, 209, 102, 0.45);
             animation: text-glow 2s ease-in-out infinite;
         }
 
         @keyframes text-glow {
-            0%, 100% { text-shadow: 0 0 20px rgba(255, 215, 0, 0.5); }
-            50% { text-shadow: 0 0 40px rgba(255, 215, 0, 0.8), 0 0 60px rgba(255, 215, 0, 0.4); }
+            0%, 100% { text-shadow: 0 0 20px rgba(255, 209, 102, 0.45); }
+            50% { text-shadow: 0 0 40px rgba(255, 77, 109, 0.55), 0 0 60px rgba(76, 201, 240, 0.35); }
         }
 
         /* Cây thông bên trái trang bìa */
@@ -1786,7 +1585,7 @@
 
         .welcome-tree-decor {
             font-size: 100px;
-            filter: drop-shadow(0 0 30px rgba(34,139,34,0.6));
+            filter: drop-shadow(0 0 30px rgba(255,77,109,0.55));
             animation: tree-glow 3s ease-in-out infinite;
         }
 
@@ -1963,10 +1762,9 @@
     </style>
 </head>
 <body>
-    <!-- Nhạc nền - Nhạc Giáng sinh -->
+    <!-- Nhạc nền -->
     <audio id="bgMusic" loop preload="auto">
-        <!-- Nhạc Giáng sinh miễn phí - Từ freepd.com (Public Domain) -->
-        <source src="./All I Want For Christmas Is You.mp3" type="audio/mpeg">
+        <source src="./Happy Birthday Piano.mp3" type="audio/mpeg">
     </audio>
 
     <!-- Nút điều khiển nhạc -->
@@ -1980,42 +1778,24 @@
             <div class="music-wave"></div>
         </div>
     </div>
-    <div class="music-hint" id="musicHint">🎄Nhấn để phát nhạc Giáng Sinh</div>
+    <div class="music-hint" id="musicHint">🎵 Nhấn để phát nhạc nền</div>
 
     <!-- Trang chào mừng -->
     <div class="welcome-page" id="welcomePage">
-        <div class="welcome-decor" style="top: 15%; left: 10%;">🎄</div>
+        <div class="welcome-decor" style="top: 15%; left: 10%;">🎈</div>
         <div class="welcome-decor" style="top: 20%; right: 15%; animation-delay: 1s;">⭐</div>
         <div class="welcome-decor" style="bottom: 25%; left: 15%; animation-delay: 0.5s;">🎁</div>
-        <div class="welcome-decor" style="bottom: 20%; right: 10%; animation-delay: 1.5s;">❄️</div>
-        <div class="welcome-decor" style="top: 40%; left: 5%; animation-delay: 2s;">🔔</div>
-        <div class="welcome-decor" style="top: 35%; right: 8%; animation-delay: 0.8s;">🎀</div>
+        <div class="welcome-decor" style="bottom: 20%; right: 10%; animation-delay: 1.5s;">🎉</div>
+        <div class="welcome-decor" style="top: 40%; left: 5%; animation-delay: 2s;">🍰</div>
+        <div class="welcome-decor" style="top: 35%; right: 8%; animation-delay: 0.8s;">✨</div>
 
         <!-- Trang trí cây thông bên trái -->
         <div class="welcome-side-tree">
-            <div class="welcome-tree-decor">🎄</div>
+            <div class="welcome-tree-decor">🎂</div>
         </div>
 
-        <!-- Trang trí lò sưởi bên phải -->
-        <div class="welcome-fireplace">
-            <div class="fireplace">
-                <div class="fire-container">
-                    <div class="flame flame-main"></div>
-                    <div class="flame flame-left"></div>
-                    <div class="flame flame-right"></div>
-                    <div class="flame flame-inner"></div>
-                    <div class="fire-glow"></div>
-                </div>
-            </div>
-            <div class="fireplace-socks">
-                <span class="sock">🧦</span>
-                <span class="sock">🧦</span>
-                <span class="sock">🧦</span>
-            </div>
-        </div>
-
-        <h1 class="welcome-title">Merry Christmas</h1>
-        <p class="welcome-subtitle">2025</p>
+        <h1 class="welcome-title">Happy Birthday</h1>
+        <p class="welcome-subtitle">Hải Yến</p>
 
         <!-- Nút hộp quà -->
         <div class="gift-box-btn" onclick="enterMainPage()">
@@ -2024,7 +1804,7 @@
                 <div class="gift-lid"></div>
                 <div class="gift-body"></div>
             </div>
-            <div class="gift-text">Nhấn để mở quà</div>
+            <div class="gift-text">Nhấn để mở thiệp</div>
         </div>
     </div>
 
@@ -2035,44 +1815,6 @@
     <div class="ambient-light light-3"></div>
 
     <div class="container">
-        <!-- Cây thông xoay bên trái -->
-        <div class="side-tree-left">
-            <div class="rotating-tree">
-                🎄
-                <div class="tree-lights">
-                    <span class="tree-light"></span>
-                    <span class="tree-light"></span>
-                    <span class="tree-light"></span>
-                    <span class="tree-light"></span>
-                    <span class="tree-light"></span>
-                    <span class="tree-light"></span>
-                    <span class="tree-light"></span>
-                </div>
-            </div>
-            <div class="tree-gifts">
-                <span class="tree-gift">🎁</span>
-                <span class="tree-gift">🎀</span>
-                <span class="tree-gift">🎁</span>
-            </div>
-        </div>
-
-        <!-- Lò sưởi bên phải -->
-        <div class="fireplace-right">
-            <div class="fireplace">
-                <div class="fire-container">
-                    <div class="flame flame-main"></div>
-                    <div class="flame flame-left"></div>
-                    <div class="flame flame-right"></div>
-                    <div class="flame flame-inner"></div>
-                    <div class="fire-glow"></div>
-                </div>
-            </div>
-            <div class="fireplace-socks">
-                <span class="sock">🧦</span>
-                <span class="sock">🧦</span>
-                <span class="sock">🧦</span>
-            </div>
-        </div>
 
         <!-- Ông già Noel cưỡi xe trượt tuyết tuần lộc góc trái dưới - Phiên bản bay -->
         <div class="santa-sleigh">
@@ -2158,106 +1900,51 @@
         <div class="wreath">
             <div class="wreath-inner">
                 <div class="wreath-date">DECEMBER</div>
-                <div class="wreath-year">25</div>
+                <div class="wreath-year">30</div>
             </div>
             <div class="wreath-bow"><div class="bow-center"></div></div>
         </div>
 
         <div class="title">
-            <h1>Merry Christmas</h1>
+            <h1>Happy Birthday</h1>
         </div>
 
         <div class="tree-section">
-            <span class="tree-star">⭐</span>
-            <div class="mini-tree">🎄</div>
-        </div>
-
-        <!-- Khu vực vòng quay may mắn - Di chuyển lên trên thẻ chúc mừng -->
-        <div class="lottery-section">
-            <div class="lottery-title">🎰 Vòng quay may mắn 🎰</div>
-            <div class="wheel-container">
-                <div class="wheel-pointer"></div>
-                <div class="wheel" id="wheel">
-                    <!-- Vòng quay được vẽ bằng canvas -->
-                </div>
-                <div class="wheel-center" onclick="spinWheel()">🎄</div>
-            </div>
-            <button class="spin-btn" id="spinBtn" onclick="spinWheel()">Bắt đầu quay</button>
+            <!-- <span class="tree-star">⭐</span> -->
+            <div class="mini-tree">🎂</div>
         </div>
 
         <div class="cards-section">
-            <div class="wish-card card-1" onclick="toggleCard(this)">
+            <div class="wish-card card-1" onclick="toggleCard(this, event)">
                 <div class="card-header">
-                    <div class="card-icon">🎁</div>
+                    <div class="card-icon">💖</div>
                     <div class="card-title">
-                        <h3>Lời chúc Giáng Sinh</h3>
-                        <span>Christmas Wishes</span>
+                        <h3>Lời chúc sinh nhật</h3>
+                        <span>Birthday Wishes</span>
                     </div>
                 </div>
                 <div class="card-content hidden">
-                    Mong bạn luôn được sưởi ấm bằng sự yêu thương<br>
-                    Mong bạn luôn sống trong hạnh phúc trọn vẹn<br>
-                    Giáng Sinh vui vẻ 🎄
-                </div>
-                <div class="card-hint">Nhấn để mở lời chúc</div>
-            </div>
-
-            <div class="wish-card card-2" onclick="toggleCard(this)">
-                <div class="card-header">
-                    <div class="card-icon">🌟</div>
-                    <div class="card-title">
-                        <h3>Ước nguyện năm mới</h3>
-                        <span>New Year Wishes</span>
-                    </div>
-                </div>
-                <div class="card-content hidden">
-                    2026, Khởi đầu mới<br>
-                    Mong mọi điều bạn ước đều trở thành hiện thực<br>
-                    Mong mọi con đường bạn đi đều bằng phẳng, thuận lợi<br>
-                    Chúc mừng năm mới ✨
-                </div>
-                <div class="card-hint">Nhấn để mở lời chúc</div>
-            </div>
-
-            <div class="wish-card card-3" onclick="toggleCard(this)">
-                <div class="card-header">
-                    <div class="card-icon">💫</div>
-                    <div class="card-title">
-                        <h3>Lời chúc đặc biệt</h3>
-                        <span>Special Words</span>
-                    </div>
-                </div>
-                <div class="card-content hidden">
-                    Cảm ơn sự đồng hành của bạn trong suốt thời gian qua<br>
-                    Mong tình cảm này sẽ luôn được giữ gìn<br>
-                    Cùng nhau bước tiếp nhé ❄️
+                    Chúc Hải Yến sinh nhật vui vẻ 💗
+                    Tuổi 19 mong em luôn tươi tắn, xinh đẹp rạng ngời.
+                    Bước sang tuổi mới, hy vọng mọi điều tốt đẹp và may mắn sẽ luôn đến với em.
+                    Cuối cùng, anh chúc em có một tuổi 19 thật trọn vẹn, ý nghĩa và hạnh phúc bên anh 🎂🫶🏻
                 </div>
                 <div class="card-hint">Nhấn để mở lời chúc</div>
             </div>
         </div>
 
-        <div class="footer-decor">WITH LOVE</div>
+        <div class="footer-decor">HAPPY BIRTHDAY</div>
 
         <div class="studio-footer">
             Made with ❤️ by<span class="studio-name">NQT</span>
         </div>
     </div>
 
-    <!-- Popup kết quả bốc thăm -->
-    <div class="result-modal" id="resultModal">
-        <div class="result-content">
-            <div class="result-icon" id="resultIcon">🎉</div>
-            <div class="result-title" id="resultTitle">Chúc mừng bạn!</div>
-            <div class="result-text" id="resultText">Nhận được nội dung lời chúc</div>
-            <button class="close-result-btn" onclick="closeResultModal()">Nhận lời chúc</button>
-        </div>
-    </div>
-
     <script>
-        // Tạo bông tuyết
         function createSnow() {
             const container = document.getElementById('snow');
-            const flakes = ['❄', '❅', '❆', '✻', '✼'];
+            const flakes = ['🎉', '✨', '🎈', '🍰'];
+            const colors = ['#ff4d6d', '#ffd166', '#4cc9f0', '#7b2cbf', '#ffffff'];
             
             for (let i = 0; i < 80; i++) {
                 const snow = document.createElement('div');
@@ -2268,19 +1955,22 @@
                 snow.style.opacity = Math.random() * 0.7 + 0.3;
                 snow.style.animationDuration = (Math.random() * 6 + 6) + 's';
                 snow.style.animationDelay = Math.random() * 10 + 's';
+                snow.style.color = colors[Math.floor(Math.random() * colors.length)];
                 container.appendChild(snow);
             }
         }
 
         // Mở thẻ
-        function toggleCard(card) {
+        function toggleCard(card, evt) {
             const content = card.querySelector('.card-content');
             const hint = card.querySelector('.card-hint');
             content.classList.toggle('hidden');
             hint.style.display = content.classList.contains('hidden') ? 'block' : 'none';
             
             // Hiệu ứng hạt vàng
-            createSparkle(event.clientX, event.clientY);
+            if (evt && typeof evt.clientX === 'number' && typeof evt.clientY === 'number') {
+                createSparkle(evt.clientX, evt.clientY);
+            }
         }
 
         // Hạt vàng
@@ -2367,265 +2057,12 @@
             }
         };
 
-        // ========== Chức năng vòng quay may mắn ==========
-
-        // Dữ liệu lời chúc - iPhone 17 Pro Max đặt trực tiếp trên vòng quay
-        const blessings = [
-            { text: 'Mong bạn luôn bình an và vui vẻ', icon: '🎄', color: '#e74c3c', weight: 75 },
-            { text: 'iPhone17 Pro Max', icon: '📱', color: '#FFD700', weight: 25, isSuper: true },
-            { text: 'Mong mọi điều bạn mong muốn đều thành hiện thực', icon: '⭐', color: '#f39c12', weight: 75 },
-            { text: 'Mong bạn luôn hạnh phúc viên mãn', icon: '💝', color: '#e91e63', weight: 75 },
-            { text: 'Mong bạn tiền tài dồi dào', icon: '💰', color: '#27ae60', weight: 75 },
-            { text: 'Mong bạn luôn khỏe mạnh và vui vẻ', icon: '🌟', color: '#3498db', weight: 75 },
-            { text: 'Mong bạn gặp nhiều may mắn liên tiếp', icon: '🍀', color: '#2ecc71', weight: 75 },
-            { text: 'Mong sự nghiệp của bạn luôn thuận lợi', icon: '🚀', color: '#9b59b6', weight: 75 }
-        ];
-
-        let isSpinning = false;
-        let currentRotation = 0;
-        const MAX_SPINS_PER_DEVICE = 3;
-        const SPIN_COUNT_STORAGE_KEY = 'christmas_2025_spin_count_v1';
-
-        function getSpinCount() {
-            try {
-                const raw = localStorage.getItem(SPIN_COUNT_STORAGE_KEY);
-                const parsed = Number.parseInt(raw ?? '0', 10);
-                return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
-            } catch {
-                return 0;
-            }
-        }
-
-        function setSpinCount(count) {
-            try {
-                localStorage.setItem(SPIN_COUNT_STORAGE_KEY, String(Math.max(0, count)));
-            } catch {
-                return;
-            }
-        }
-
-        function getRemainingSpins() {
-            return Math.max(0, MAX_SPINS_PER_DEVICE - getSpinCount());
-        }
-
-        function showSpinLimitReached() {
-            const modal = document.getElementById('resultModal');
-            const icon = document.getElementById('resultIcon');
-            const title = document.getElementById('resultTitle');
-            const text = document.getElementById('resultText');
-            if (!modal || !icon || !title || !text) return;
-
-            icon.textContent = '⛔️';
-            title.textContent = 'Bạn đã hết lượt quay';
-            text.textContent = 'Thiết bị này đã hết lượt quay.';
-            modal.classList.add('show');
-        }
-
-        function updateSpinControls() {
-            const spinBtn = document.getElementById('spinBtn');
-            const wheelCenter = document.querySelector('.wheel-center');
-            if (!spinBtn || !wheelCenter) return;
-
-            const remaining = getRemainingSpins();
-            if (remaining <= 0) {
-                spinBtn.disabled = true;
-                spinBtn.textContent = 'Hết lượt quay';
-                wheelCenter.style.pointerEvents = 'none';
-                wheelCenter.style.opacity = '0.6';
-                return;
-            }
-
-            if (!isSpinning) {
-                spinBtn.disabled = false;
-                const baseLabel = getSpinCount() === 0 ? 'Bắt đầu quay' : 'Quay thêm một lần nữa';
-                spinBtn.textContent = baseLabel;
-            }
-
-            wheelCenter.style.pointerEvents = '';
-            wheelCenter.style.opacity = '';
-        }
-
-        // Chọn ngẫu nhiên theo trọng số
-        function weightedRandom() {
-            const others = [0, 2, 3, 4, 5, 6, 7];
-            return others[Math.floor(Math.random() * others.length)];
-        }
-
-        // Vẽ vòng quay
-        function drawWheel() {
-            const wheel = document.getElementById('wheel');
-            const segmentAngle = 360 / blessings.length;
-
-            // Sử dụng conic-gradient để vẽ hình quạt
-            let gradient = 'conic-gradient(from -22.5deg, ';
-            blessings.forEach((blessing, index) => {
-                const startAngle = index * segmentAngle;
-                const endAngle = (index + 1) * segmentAngle;
-                gradient += `${blessing.color} ${startAngle}deg ${endAngle}deg`;
-                if (index < blessings.length - 1) gradient += ', ';
-            });
-            gradient += ')';
-
-            wheel.style.background = gradient;
-
-            // Thêm nhãn văn bản
-            blessings.forEach((blessing, index) => {
-                const label = document.createElement('div');
-                label.className = 'segment-label';
-                // Chỉ hiển thị icon trên vòng quay
-                label.innerHTML = `<span style="font-size: 24px;">${blessing.icon}</span>`;
-                label.style.cssText = `
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: flex-start;
-                    padding-top: 25px;
-                    transform: rotate(${index * segmentAngle}deg);
-                    transform-origin: center center;
-                    text-align: center;
-                    color: ${blessing.isSuper ? '#000' : '#fff'};
-                    text-shadow: ${blessing.isSuper ? '0 0 5px #fff' : '1px 1px 2px rgba(0,0,0,0.5)'};
-                    pointer-events: none;
-                    font-size: 11px;
-                    font-weight: bold;
-                `;
-                wheel.appendChild(label);
-            });
-        }
-
-        // Quay vòng quay
-        function spinWheel() {
-            if (isSpinning) return;
-
-            const spinCount = getSpinCount();
-            if (spinCount >= MAX_SPINS_PER_DEVICE) {
-                showSpinLimitReached();
-                updateSpinControls();
-                return;
-            }
-
-            setSpinCount(spinCount + 1);
-
-            isSpinning = true;
-            const spinBtn = document.getElementById('spinBtn');
-            spinBtn.disabled = true;
-            spinBtn.textContent = 'Đang quay...';
-
-            // Sử dụng trọng số để chọn kết quả ngẫu nhiên
-            const resultIndex = weightedRandom();
-            const segmentAngle = 360 / blessings.length;
-
-            // Tính góc xoay (ít nhất 5 vòng + đến ô mục tiêu)
-            const extraSpins = 5 * 360;
-            // Xoay đến chính giữa ô (bỏ offset segmentAngle / 2)
-            const targetAngle = 360 - (resultIndex * segmentAngle);
-            const totalRotation = currentRotation + extraSpins + targetAngle - (currentRotation % 360);
-
-            currentRotation = totalRotation;
-
-            const wheel = document.getElementById('wheel');
-            wheel.style.transform = `rotate(${totalRotation}deg)`;
-
-            // Hiển thị kết quả sau khi vòng quay dừng
-            setTimeout(() => {
-                showResult(blessings[resultIndex]);
-                isSpinning = false;
-                updateSpinControls();
-            }, 4000);
-        }
-
-        // Hiển thị popup kết quả
-        function showResult(blessing) {
-            const modal = document.getElementById('resultModal');
-            const icon = document.getElementById('resultIcon');
-            const title = document.getElementById('resultTitle');
-            const text = document.getElementById('resultText');
-
-            // Kiểm tra xem có phải giải thưởng lớn không
-            if (blessing.isSuper) {
-                // Hiển thị đặc biệt cho giải thưởng iPhone 17 Pro Max
-                icon.innerHTML = `
-                    <div style="position: relative; display: inline-block;">
-                        <svg width="80" height="120" viewBox="0 0 80 120" style="filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));">
-                            <!-- Vỏ điện thoại -->
-                            <rect x="5" y="5" width="70" height="110" rx="12" fill="linear-gradient(180deg, #2c3e50 0%, #1a252f 100%)" stroke="#4a5568" stroke-width="2"/>
-                            <!-- Màn hình -->
-                            <rect x="10" y="15" width="60" height="90" rx="5" fill="linear-gradient(180deg, #667eea 0%, #764ba2 50%, #f093fb 100%)"/>
-                            <!-- Dynamic Island -->
-                            <rect x="25" y="18" width="30" height="8" rx="4" fill="#1a1a1a"/>
-                            <!-- Nội dung màn hình - logo Apple -->
-                            <text x="40" y="70" text-anchor="middle" font-size="30" fill="white"></text>
-                            <!-- Thanh ngang dưới cùng -->
-                            <rect x="25" y="98" width="30" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
-                            <!-- Mô-đun camera -->
-                            <rect x="8" y="8" width="25" height="25" rx="5" fill="#2d3748" stroke="#4a5568" stroke-width="1"/>
-                            <circle cx="15" cy="15" r="5" fill="#1a1a1a" stroke="#4a5568" stroke-width="1"/>
-                            <circle cx="26" cy="15" r="5" fill="#1a1a1a" stroke="#4a5568" stroke-width="1"/>
-                            <circle cx="15" cy="26" r="5" fill="#1a1a1a" stroke="#4a5568" stroke-width="1"/>
-                            <!-- Đèn flash -->
-                            <circle cx="26" cy="26" r="3" fill="#ffd700"/>
-                        </svg>
-                        <span style="position: absolute; top: -10px; right: -10px; font-size: 30px; animation: star-pulse 0.5s ease-in-out infinite;">✨</span>
-                    </div>
-                `;
-                title.innerHTML = '🎊 Giải thưởng đặc biệt 🎊';
-                text.innerHTML = `
-                    <div style="background: linear-gradient(135deg, #ffd700 0%, #ffaa00 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 28px; font-weight: bold; margin-bottom: 15px;">
-                        iPhone 17 Pro Max
-                    </div>
-                    <div style="font-size: 14px; color: rgba(255,255,255,0.8);">
-                        🎉 Chúc mừng bạn là người may mắn nhất! 🎉<br>
-                        <span style="font-size: 12px; color: rgba(255,255,255,0.5);">(Vui lòng liên hệ studio để nhận thưởng)</span>
-                    </div>
-                `;
-
-                // Hiệu ứng hạt nhiều hơn cho giải thưởng lớn
-                for (let i = 0; i < 20; i++) {
-                    setTimeout(() => {
-                        createSparkle(
-                            Math.random() * window.innerWidth,
-                            Math.random() * window.innerHeight
-                        );
-                    }, i * 100);
-                }
-            } else {
-                // Hiển thị lời chúc bình thường
-                icon.textContent = blessing.icon;
-                title.textContent = '🎉 Chúc mừng bạn 🎉';
-                text.innerHTML = `<strong style="font-size: 22px; color: #ffd700;">${blessing.text}</strong><br><br>Mong lời chúc này sẽ cùng bạn đón một Giáng Sinh tuyệt vời!`;
-
-                // Hiệu ứng hạt bình thường
-                for (let i = 0; i < 5; i++) {
-                    setTimeout(() => {
-                        createSparkle(
-                            Math.random() * window.innerWidth,
-                            Math.random() * window.innerHeight
-                        );
-                    }, i * 200);
-                }
-            }
-
-            modal.classList.add('show');
-        }
-
-        // Đóng popup kết quả
-        function closeResultModal() {
-            const modal = document.getElementById('resultModal');
-            modal.classList.remove('show');
-        }
-
-        // Khởi tạo vòng quay
-        drawWheel();
-        updateSpinControls();
-
         // ========== Lộ trình bay ngẫu nhiên của ông già Noel ==========
 
         function generateRandomSantaFlight() {
             const santaSleigh = document.querySelector('.santa-sleigh');
             if (!santaSleigh) return;
+            if (window.getComputedStyle(santaSleigh).display === 'none') return;
 
             // Chiều cao cố định của điểm đầu và điểm cuối
             const startEndBottom = 120;
